@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kargeo</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kar9eo.github.io/</link>
     <description>Recent content on kargeo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Mar 2025 20:32:16 +0300</lastBuildDate>
+    <atom:link href="https://kar9eo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wolvctf 2025 writeup</title>
+      <link>https://kar9eo.github.io/posts/wolvctf2025/</link>
+      <pubDate>Sun, 23 Mar 2025 20:32:16 +0300</pubDate>
+      <guid>https://kar9eo.github.io/posts/wolvctf2025/</guid>
+      <description>Javascript Puzzle It is often useful to force exceptions to potentially get back valuable information.&#xA;Can you make a request which causes an exception in this app?&#xA;app.js&#xA;const express = require(&amp;#39;express&amp;#39;) const app = express() const port = 8000 app.get(&amp;#39;/&amp;#39;, (req, res) =&amp;gt; { try { const username = req.query.username || &amp;#39;Guest&amp;#39; const output = &amp;#39;Hello &amp;#39; + username res.send(output) } catch (error) { res.sendFile(__dirname + &amp;#39;/flag.txt&amp;#39;) } }) app.</description>
+    </item>
   </channel>
 </rss>
